@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ disease }} Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h2>{{ disease | capitalize }} Prediction</h2>
+
+<form action="/predict/{{ disease }}" method="post">
+
+    {% for field in fields %}
+        <input type="text" name="{{ field }}" placeholder="{{ field }}" required>
+    {% endfor %}
+
+    <button type="submit">Predict</button>
+</form>
+
+<a href="/">Back</a>
+
+</body>
+</html>
