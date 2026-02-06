@@ -6,36 +6,37 @@ Health-Insight is a full-stack web application that integrates multiple machine 
 </p>
 <h2>🚀 Features</h2>
 
-<ul><l> -Multi-disease prediction (Diabetes, Heart, Kidney, Liver, Cancer)</l>
+<ul><l> Multi-disease prediction (Diabetes, Heart, Kidney, Liver, Cancer)</l>
 
-<l> -Individual ML model per disease</l>
+<l> Individual ML model per disease</l>
 
-<l> -Dynamic input forms based on disease-specific features</l>
+<l> Dynamic input forms based on disease-specific features</l>
 
-<l> -Flask REST backend with real-time inference</l>
+<l> Flask REST backend with real-time inference</l>
 
-<l> -Model persistence using Pickle</l>
+<l> Model persistence using Pickle</l>
 
-<l> -Input validation and categorical encoding</l>
+<l> Input validation and categorical encoding</l>
 
-<l> -Scalable and modular project structure</l></ul>
+<l> Scalable and modular project structure</l></ul>
 
 <h2>🛠 Tech Stack</h2>
 <u>
-<l> -Backend: Python, Flask</l>
+<l> Backend: Python, Flask</l>
 
-<l> -Machine Learning: Scikit-learn, Pandas, NumPy</l>
+<l> Machine Learning: Scikit-learn, Pandas, NumPy</l>
 
-<l> -Models: RandomForestClassifier</l>
+<l> Models: RandomForestClassifier</l>
 
-<l> -Frontend: HTML, CSS, JavaScript</l>
+<l> Frontend: HTML, CSS, JavaScript</l>
 
-<l> -Serialization: Pickle</l>
+<l> Serialization: Pickle</l>
 </u>
 
 <h2>📂 Project Structure</h2>
-``` bash
-### Health-Insight/ <br>
+
+```
+ Health-Insight/ <br>
 │ <br>
 ├── app.py  <br>
 ├── models/ <br>
@@ -85,9 +86,11 @@ Health-Insight is a full-stack web application that integrates multiple machine 
 <l> - Predictions are returned in real time via the web interface.</l>
 </u>
 <h2>▶️ Run Locally</h2>
-```bash
-pip install -r requirements.txt
-python app.py 
+
+```
+pip install -r requirements.txt <br>
+python app.py <br>
+
 ```
 
 
